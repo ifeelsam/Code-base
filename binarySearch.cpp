@@ -15,7 +15,7 @@ int main(){
     cin>>search;
    
     while(low<=high){
-        mid = (low + high)/2;
+        mid = (low + high)/2;// hello world
         if (arr[mid]== search){
             flag++; 
             break;
